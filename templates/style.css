@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap');
+
+body {
+    font-family: courier;
+    margin: 0;
+    padding: 1px;
+    /* background-image: url("j.jpg"); */
+
+}
+
+.profile-container {
+    max-width: 700px;
+    margin: 60px auto;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 50px 50px 10px rgba(53, 47, 47, 0.3);
+    padding: 23px;
+
+}
+
+.profile-picture:hover {
+    background-color: #55640f;
+    box-shadow: 0 8px 16px 0 rgba(168, 30, 30, 0.2), 0 6px 20px 0 rgba(221, 135, 195, 0.19);
+}
+
+.profile-picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 26%;
+    margin: 0 auto;
+   
+}
+
+
+.profile-name {
+    text-align: left;
+    margin: 20px 0;
+    font-size: 40px;
+    color: white;
+
+
+}
+
+.profile-info {
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 20px;
+    color: white;
+}
+
+.profile-connect {
+    position: absolute;
+    top: 50px;
+    right: 450px;
+    width: 200px;
+    color: white;
+
+}
